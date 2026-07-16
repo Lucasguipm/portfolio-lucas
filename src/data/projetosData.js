@@ -1,18 +1,19 @@
 import placeholderImg from '../assets/arnold-img.jpg'
+import albumFinderCover from '../assets/album-finder-cover.png'
 
 export const meusProjetos = [
   {
     id: 1,
-    title: "Projeto 1: Em desenvolvimento",
-    description: "Desculpe, este projeto está em reunião.",
-    image: placeholderImg,
-    liveLink: "https://seu-projeto-online.com",
-    githubLink: "https://github.com/seu-usuario/band-name-generator"
+    title: "Album Finder",
+    description: "Web App Full Stack para busca de álbuns utilizando a API do Last.fm. Desenvolvido com React no frontend e Python (Flask e BeautifulSoup) no backend.",
+    image: albumFinderCover,
+    liveLink: "https://album-finder-lgpm.vercel.app/",
+    githubLink: "https://github.com/Lucasguipm/album-finder"
   },
   {
     id: 2,
     title: "Projeto 2: Em Desenvolvimento",
-    description: "Ainda não saiu do papel... mas o rascunho é lindo.",
+    description: "Desculpe, este projeto está em reunião.",
     image: placeholderImg,
     liveLink: "#",
     githubLink: "https://github.com/seu-usuario/python-flashcards"

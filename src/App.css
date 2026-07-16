@@ -43,6 +43,22 @@ main {
     height: 100%;
     
     overflow-y: auto;
+
+    animation: aparecerSuave 0.5s ease-out forwards;
+    opacity: 0;
+}
+
+@keyframes aparecerSuave {
+  from {
+    /* Estado inicial: totalmentes invisível e 20px abaixo */
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    /* Estado final: totalmente visível na posição original */
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .content-box::-webkit-scrollbar {
