@@ -100,8 +100,8 @@ function Sidebar() {
 
         <div className='cv-button-container'>
             <a 
-                href="/Lucas_Guilherme_CV.pdf" 
-                download="Lucas_Guilherme_CV.pdf"
+                href="/Software_Developer_Jr.pdf" 
+                download="Software_Developer_Jr.pdf"
                 className='download-cv-btn'
             >
                 Download CV <VscArrowCircleDown size={30} />

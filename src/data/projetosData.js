@@ -1,5 +1,6 @@
 import placeholderImg from '../assets/arnold-img.jpg'
 import albumFinderCover from '../assets/album-finder-cover.png'
+import priceSimulatorCover from '../assets/price-simulator-cover.png'
 
 export const meusProjetos = [
   {
@@ -12,16 +13,16 @@ export const meusProjetos = [
   },
   {
     id: 2,
-    title: "Projeto 2: Em Desenvolvimento",
-    description: "Desculpe, este projeto está em reunião.",
-    image: placeholderImg,
-    liveLink: "#",
-    githubLink: "https://github.com/seu-usuario/python-flashcards"
+    title: "Price Simulator",
+    description: "Simulador que combina web scraping com geração de histórico simulado de preços. O backend em Python/Flask processa e modela os dados da Amazon Brasil, enquanto a interface em React exibe gráficos interativos (Recharts) do produto.",
+    image: priceSimulatorCover,
+    liveLink: "https://price-simulator-lgpm.vercel.app/",
+    githubLink: "https://github.com/Lucasguipm/price-simulator"
   },
   {
     id: 3,
     title: "Projeto 3: Em Desenvolvimento",
-    description: "Em produção... e com bugs controlados.",
+    description: "Desculpe, este projeto está em reunião.",
     image: placeholderImg,
     liveLink: "#",
     githubLink: "https://github.com/seu-usuario/python-scraper"
